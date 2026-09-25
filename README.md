@@ -20,14 +20,12 @@ src/
 ├── App.java                              (clase ejecutable, sin paquete)
 ├── excepciones/
 │   ├── CupoExcedidoException.java
-├── certificacion/
-│   └── Certificable.java                 (interfaz)
 └── modelo/
     ├── EventoUniversitario.java
     ├── Sala.java
     ├── Estudiante.java
     ├── Inscripcion.java
-    └── certificacion/
+    └── certificacion/                    (interfaz)
     |    ├── Certificable.java
     └── actividades/
         ├── Actividad.java                (clase abstracta)
