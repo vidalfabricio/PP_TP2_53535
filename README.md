@@ -27,6 +27,8 @@ src/
     ├── Sala.java
     ├── Estudiante.java
     ├── Inscripcion.java
+    └── certificacion/
+    |    ├── Certificable.java
     └── actividades/
         ├── Actividad.java                (clase abstracta)
         ├── Charla.java
@@ -48,8 +50,6 @@ src/
 | `Inscripcion` | Representa la inscripción de un estudiante a una actividad puntual (fecha, estado). |
 | `Certificable` | Interfaz que declara la capacidad de emitir certificados. Implementada por `Taller` y `Curso`, no por `Charla`. |
 | `CupoExcedidoException` | Excepción chequeada, lanzada al intentar inscribir por encima del cupo máximo. |
-| `CupoMinimoNoAlcanzadoException` | Excepción chequeada, lanzada cuando una actividad no llega al cupo mínimo. |
-| `DatosInvalidosException` | Excepción chequeada, lanzada ante datos inválidos al crear una actividad. |
 | `App` | Clase ejecutable con el `main`, arma el escenario de prueba completo. |
  
 ## Relaciones entre clases
