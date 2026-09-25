@@ -20,8 +20,6 @@ src/
 ├── App.java                              (clase ejecutable, sin paquete)
 ├── excepciones/
 │   ├── CupoExcedidoException.java
-│   ├── CupoMinimoNoAlcanzadoException.java
-│   └── DatosInvalidosException.java
 ├── certificacion/
 │   └── Certificable.java                 (interfaz)
 └── modelo/
@@ -83,7 +81,6 @@ if (actividad instanceof Certificable) {
 ## Manejo de excepciones
  
 - `inscribir(Estudiante)` lanza `CupoExcedidoException` (chequeada) cuando se supera el cupo máximo, mediante `throw` y `throws`.
-- `crearActividadCharla/Taller/Curso(...)` lanzan `DatosInvalidosException` ante título vacío o cupo inválido.
 - El manejo de estas excepciones se realiza en `App`, con bloques `try-catch-finally`, siguiendo un orden de `catch` desde el más específico al más general.
 - Las excepciones vinculadas a la persistencia (`FileNotFoundException`, `NotSerializableException`, `InvalidClassException`, `ClassNotFoundException`, `IOException`) se manejan de forma granular, cada una con su propio mensaje.
 ## Persistencia (serialización)
