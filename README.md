@@ -125,6 +125,12 @@ double costoTalleres = expo.calcularCostoMateriales(talleres);
 double costoTotal = expo.calcularCostoMateriales(expo.getActividades());
 ```
  
+## Salida por consola
+<img width="452" height="700" alt="image" src="https://github.com/user-attachments/assets/96d7d4ba-ac6a-46f7-bdd6-85d2ed09328b" />
+<img width="1213" height="707" alt="image" src="https://github.com/user-attachments/assets/3fc73006-b95b-4c88-babd-99d108f1621c" />
+<img width="279" height="169" alt="image" src="https://github.com/user-attachments/assets/76964c2b-cd67-4511-a1e9-3de7eaef5762" />
+
+
 ## Cómo ejecutar el proyecto
  
 1. Cloná el repositorio:
