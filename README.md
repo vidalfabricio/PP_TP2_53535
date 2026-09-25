@@ -85,7 +85,7 @@ if (actividad instanceof Certificable) {
 - Las excepciones vinculadas a la persistencia (`FileNotFoundException`, `NotSerializableException`, `InvalidClassException`, `ClassNotFoundException`, `IOException`) se manejan de forma granular, cada una con su propio mensaje.
 ## Persistencia (serialización)
  
-`EventoUniversitario` y todas las clases de su grafo de objetos (`Sala`, `Actividad` y sus subtipos, `Inscripcion`, `Estudiante`) implementan `Serializable`, con `serialVersionUID` propio.
+`EventoUniversitario` y todas las clases de su grafo de objetos (`Sala`, `Actividad` y sus subtipos, `Inscripcion`, `Estudiante`) implementan `Serializable`
  
 ```java
 public boolean persistirEvento() throws IOException {
